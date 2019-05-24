@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  get 'reviews/index'
+
+  get 'reviews/show'
+
+  get 'reservations/index'
+
+  get 'reservations/show'
+
+  get 'neighborhoods/index'
+
+  get 'neighborhoods/show'
+
+  get 'listings/index'
+
+  get 'listings/show'
+
+  get 'cities/index'
+
+  get 'cities/show'
+
   resources :users
 
   resources :listings
